@@ -1,0 +1,23 @@
+{	
+    "name": "softhub99/zest",
+    "description": "A Zest framework",
+    "keywords": ["zest","php", "framework"],
+    "license": "MIT",
+    "type":"project",
+    "authors": [
+        {
+            "name": "Malik Umer Farooq",
+            "email":"lablnet01@gmail.com",
+            "homepage": "https://softhub99.com"
+        }
+    ],	
+    "autoload": {
+        "psr-4": {
+             "App\\": "App/",
+             "Config\\": "Config/"
+       }
+    },
+    "require":{
+    	"softhub99/zest_framework": "dev-master"
+    }
+}
