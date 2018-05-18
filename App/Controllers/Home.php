@@ -18,7 +18,8 @@ class Home extends \Softhub99\Zest_Framework\Controller\Controller
      */
     public function index()
     {
-    
+    	// Using the database model
+    	// \App\Models\Database::CreateDb('Zest_Framework');
         echo View::View("Home/index");
 
     }
