@@ -52,7 +52,7 @@ class Config
      * Default Data dir
      * @var string
      */
-    const Data_dir = '../Storage/Data';
+    const Data_Dir = '../Storage/Data';
     /**
      * Default Session storage path
      * @var string
