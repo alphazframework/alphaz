@@ -1,4 +1,4 @@
-# Zest PHP Framework - Beta
+# Zest PHP Framework 
 
 ## About Zest
 
@@ -41,3 +41,6 @@ All security vulnerabilities will be promptly addressed.
 
 The Zest framework is open-sourced software 
 licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Contributer
+[Ossama Mehmood (Graphic Designer our team member)](https://www.fiverr.com/ossamamehmood)

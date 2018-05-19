@@ -5,3 +5,9 @@ body{
 	display: flex;
 	background-color: #e89696;
 }
+#logo{
+	height: 150px;
+}
+#margin{
+	margin-top: 43px;
+}

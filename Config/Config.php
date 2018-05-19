@@ -14,6 +14,11 @@ class Config
      */
     const App_Name = 'Zest Framework';
     /**
+     * App Version
+     * @var inr
+     */
+    const App_Version = '1.0.3';    
+    /**
      * Database host
      * @var string
      */
