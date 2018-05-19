@@ -2,26 +2,14 @@
 
 namespace App\Models;
 
-use PDO;
+use Softhub99\Zest_Framework\Database\Zest\Builder as Model;
 
 /**
- * Example user model
+ * Example post model
  *
  * PHP version 7.0
  */
-class Database extends \Softhub99\Zest_Framework\Model\Model
+class Post extends Model
 {
-
-    /**
-     * Get all the users as an associative array
-     *
-     * @return array
-     */
-    public static function CreateDb($name)
-    {
-        $db = static::Db();
-        $db->CreateDb($name);
-        $db->Close();
-        return true;
-    }
+    protected $table = 'posts' // This is only example...
 }
