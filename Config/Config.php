@@ -30,7 +30,7 @@ class Config
      * Database driver
      * @var string
      */
-    const DB_DRIVER = 'database-driver' // MySQL is recommended
+    const DB_DRIVER = 'database-driver'; // MySQL is recommended
     
     /**
      * Database name
