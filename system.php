@@ -3,7 +3,6 @@ require_once __DIR__ . "/vendor/autoload.php";
 $File = new Softhub99\Zest_Framework\Files\Files;
 $File->systemDirs();
 $session = new Softhub99\Zest_Framework\Session\Session;
-$session->sessionPath();
 /**
  * Error and Exception handling
  */
