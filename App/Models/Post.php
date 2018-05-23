@@ -11,5 +11,9 @@ use Softhub99\Zest_Framework\Database\Zest\Builder as Model;
  */
 class Post extends Model
 {
-    protected $table = 'posts' // This is only example...
+    public function __construct(){
+    	$database = new Model;
+    	$database->table = 'posts';
+    	//rest code
+    }
 }
