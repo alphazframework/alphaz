@@ -11,9 +11,7 @@ use Softhub99\Zest_Framework\Database\Zest\Builder as Model;
  */
 class Post extends Model
 {
-    public function __construct(){
-    	$database = new Model;
-    	$database->table = 'posts';
-    	//rest code
+    public function get(){
+    	Model::table("tblname")->method();//example code 
     }
 }
