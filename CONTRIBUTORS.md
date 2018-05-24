@@ -1,4 +1,5 @@
 The following developers contributed to this project:
 
 * Malik Umer Farooq [CoreTeam](https://github.com/Lablnet)
-* Mihael Dimoski [NonCore](https://github.com/zlianon)
+* Ossama Mehmood [CoreTeam](https://www.fiverr.com/ossamamehmood)
+* Mihael Dimoski [NonCoreTeam](https://github.com/zlianon)
