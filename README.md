@@ -29,10 +29,7 @@ We will add more documentation soon.
 
 Thank you for considering contributing to the Zest framework! Feel free to create a pull request.
 ### Contrubuting guide
-You are not allow add any depencies in this framework , You allow add any new features whatever you want or improve existing features, We always welcome our contributer 
-you find our core depencies here
-https://github.com/Softhub99/Zest_Framework/
-Thanks 
+https://github.com/Softhub99/Zest/wiki/How-to-report-issue-&-Contribute
 
 ## Security Vulnerabilities
 
