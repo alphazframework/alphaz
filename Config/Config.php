@@ -73,4 +73,21 @@ class Config
      * @var string
      */
     const Session_Path = '../Storage/Session/';
+
+    /**
+     * if true auto csrf validate
+     * @var boolean
+     */
+    const AUTO_CSRF_VARIFIED = true;
+
+    /**
+     * Default path for views/theme
+     * @var string
+     */
+    const THEME_PATH = "../App/Views";   
+    /**
+     * Default time for csrf token expire
+     * @var int
+     */
+    const CSRF_TIMESTAMP = 3600;   
 }
