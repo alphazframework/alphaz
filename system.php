@@ -13,6 +13,7 @@ set_exception_handler('Softhub99\Zest_Framework\Expection\Expection::exceptionHa
 /**
  * Routing
  */
+
 $router = new Softhub99\Zest_Framework\Router\Router();
-require_once __DIR__ .'/routes/routes.php';
+require_once route()->routes.'routes.php';
 
