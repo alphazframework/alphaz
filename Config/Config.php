@@ -90,4 +90,10 @@ class Config
      * @var int
      */
     const CSRF_TIMESTAMP = 3600;   
+
+    /**
+     * Default cypto key (512-bit)
+     * @var keygen
+     */    
+    const CRYPTO_KEY = 'RgUjXn2r5u8x/A?D(G+KbPeShVmYp3s6v9y$B&E)H@McQfTjWnZr4t7w!z%C*F-J';    
 }
