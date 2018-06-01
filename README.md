@@ -1,3 +1,5 @@
+[![StyleCI](https://github.styleci.io/repos/133794233/shield?branch=master)](https://github.styleci.io/repos/133794233)
+
 # Zest PHP Framework 
 
 ## About Zest
