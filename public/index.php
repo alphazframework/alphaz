@@ -1,3 +1,3 @@
 <?php
 
-require dirname(__DIR__) . '/system.php';
+require dirname(__DIR__).'/system.php';

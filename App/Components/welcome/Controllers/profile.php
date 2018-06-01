@@ -2,17 +2,15 @@
 
 namespace App\Components\hello\Controllers;
 
-use \Softhub99\Zest_Framework\Component\View\View;
 /**
- * Home controller
+ * Home controller.
  *
  * PHP version 7.0
  */
-class Profile extends \Softhub99\Zest_Framework\Component\Controller\Controller
+class profile extends \Softhub99\Zest_Framework\Component\Controller\Controller
 {
-
     /**
-     * Show the index page
+     * Show the index page.
      *
      * @return void
      */
@@ -20,8 +18,9 @@ class Profile extends \Softhub99\Zest_Framework\Component\Controller\Controller
     {
         //rest code
     }
-    public function about(){
-    	echo $this->route_params['username'];
+
+    public function about()
+    {
+        echo $this->route_params['username'];
     }
-   
 }

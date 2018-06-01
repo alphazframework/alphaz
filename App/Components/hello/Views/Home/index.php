@@ -14,7 +14,7 @@
 
 <body>
 	<div class='container-fluid'>
-		<h1><?= printc("title:home:hello"); ?></h1>
+		<h1><?= printc('title:home:hello'); ?></h1>
 	</div>
 </body>	
 </html>

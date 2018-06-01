@@ -2,18 +2,15 @@
 
 namespace App\Models;
 
-use PDO;
-
 /**
- * Example user model
+ * Example user model.
  *
  * PHP version 7.0
  */
 class Database extends \Softhub99\Zest_Framework\Model\Model
 {
-
     /**
-     * Get all the users as an associative array
+     * Get all the users as an associative array.
      *
      * @return array
      */
@@ -22,6 +19,7 @@ class Database extends \Softhub99\Zest_Framework\Model\Model
         $db = static::Db();
         $db->CreateDb($name);
         $db->Close();
+
         return true;
     }
 }
