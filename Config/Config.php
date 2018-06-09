@@ -110,4 +110,9 @@ class Config
      * @var keygen
      */
     const CRYPTO_KEY = 'RgUjXn2r5u8x/A?D(G+KbPeShVmYp3s6v9y$B&E)H@McQfTjWnZr4t7w!z%C*F-J';
+     /**
+     * Default site maintainness 
+     * @var boolean
+     */ 
+    const Maintenance = false;   
 }
