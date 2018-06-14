@@ -8,11 +8,11 @@ Zest is a very light-weight php framework without any depencies expect core and 
 
 ## Installation
 
-https://zest.softhub99.com//docs/installation
+http://zestframework.xyz/public/docs/installation
 
 ## Documentation
 
-https://zest.softhub99.com/docs/introduction
+http://zestframework.xyz/public/docs/introduction
 
 ## Contributing
 
