@@ -9,7 +9,7 @@ set_error_handler('Softhub99\Zest_Framework\Expection\Expection::errorHandler');
 set_exception_handler('Softhub99\Zest_Framework\Expection\Expection::exceptionHandler');
 $router = new Softhub99\Zest_Framework\Router\Router();
 $server = new Softhub99\Zest_Framework\Common\Server();
-$maintenance = new Softhub99\Zest_Framework\Common\maintenance();
+$maintenance = new Softhub99\Zest_Framework\Common\Maintenance();
 $maintenance->run();
 $server->get();
 require_once route()->routes.'routes.php';
