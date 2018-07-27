@@ -12,8 +12,8 @@ use Softhub99\Zest_Framework\Database\Zest\Builder as Model;
 class Post extends Model
 {
     public function get()
-    {	
-    	$db = new Mode;
+    {
+        $db = new Mode();
         $db->method(); //example code
     }
 }
