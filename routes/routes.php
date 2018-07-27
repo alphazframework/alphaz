@@ -10,4 +10,7 @@ $router->add('user/{id:[0-9]}',  function ($args) {
     echo 'Example route using closure '.$args['id'] . " ".$args['name'];
 });
 
+//Cache the routes
+$router->cacheRouters();
+//Dispatch the request
 $router->dispatch($_SERVER['QUERY_STRING']);

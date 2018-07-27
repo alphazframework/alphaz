@@ -19,7 +19,7 @@ class Config
      *
      * @var inr
      */
-    const App_Version = '1.0.3';
+    const App_Version = '1.9.1';
 
     /**
      * Database host.
@@ -116,4 +116,14 @@ class Config
      * @var bool
      */
     const Maintenance = false;
+    /**
+     * Route Cache if true load routes from cache
+     * @var boolean
+     */
+    const ROUTER_CACHE = true;
+    /**
+     * Router cache regenerate time
+     * @var int
+     */
+    const ROUTE_CACHE_REGENERATE = 3600;    
 }
