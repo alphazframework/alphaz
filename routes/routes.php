@@ -7,7 +7,7 @@ $router->add('middlewaretest', ['controller'=>'Home', 'action'=>'middlewaretest'
 
 //for test using closure
 $router->add('user/{id:[0-9]}', function ($args) {
-    echo 'Example route using closure '.$args['id'].' '.$args['name'];
+    echo 'Example route using closure '.$args['id'];
 });
 
 //Cache the routes
