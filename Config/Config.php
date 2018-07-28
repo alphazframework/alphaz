@@ -117,13 +117,15 @@ class Config
      */
     const Maintenance = false;
     /**
-     * Route Cache if true load routes from cache
-     * @var boolean
+     * Route Cache if true load routes from cache.
+     *
+     * @var bool
      */
     const ROUTER_CACHE = true;
     /**
-     * Router cache regenerate time
+     * Router cache regenerate time.
+     *
      * @var int
      */
-    const ROUTE_CACHE_REGENERATE = 3600;    
+    const ROUTE_CACHE_REGENERATE = 3600;
 }
