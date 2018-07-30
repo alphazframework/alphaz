@@ -128,7 +128,6 @@ class Config
      * @var int
      */
     const ROUTE_CACHE_REGENERATE = 3600;
-<<<<<<< HEAD
     /**
      * SMPT Host
      *
@@ -153,6 +152,4 @@ class Config
      * @var int
      */    
     const SMPT_PORT = 111;
-=======
->>>>>>> 6c9578be43f8cdfabb88c255d509c74fc3c9b4b0
 }
