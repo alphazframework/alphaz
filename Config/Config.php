@@ -89,7 +89,7 @@ class Config
      *
      * @var bool
      */
-    const AUTO_CSRF_VARIFIED = true;
+    const AUTO_CSRF_VARIFIED = false;
 
     /**
      * Default path for views/theme.
@@ -117,13 +117,39 @@ class Config
      */
     const Maintenance = false;
     /**
-     * Route Cache if true load routes from cache
-     * @var boolean
+     * Route Cache if true load routes from cache.
+     *
+     * @var bool
      */
-    const ROUTER_CACHE = true;
+    const ROUTER_CACHE = false;
     /**
-     * Router cache regenerate time
+     * Router cache regenerate time.
+     *
      * @var int
      */
-    const ROUTE_CACHE_REGENERATE = 3600;    
+    const ROUTE_CACHE_REGENERATE = 3600;
+    /**
+     * SMPT Host
+     *
+     * @var string
+     */
+    const SMPT_HOST = "your-smtp-host";
+    /**
+     * SMPT User
+     *
+     * @var string
+     */    
+    const SMPT_USER = "your-smtp-user";
+    /**
+     * SMPT Pass
+     *
+     * @var string
+     */    
+    const SMPT_PASS = "your-smtp-pass";
+    /**
+     * SMPT Port
+     *
+     * @var int
+     */    
+    const SMPT_PORT = 111;
 }
