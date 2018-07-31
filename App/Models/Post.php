@@ -1,19 +1,21 @@
 <?php
 
 namespace App\Models;
-
-use Softhub99\Zest_Framework\Database\Zest\Builder as Model;
-
-/**
- * Example post model.
- *
- * PHP version 7.0
- */
-class Post extends Model
+use Softhub99\Zest_Framework\Database\MYSQL as DB;
+use Config\Config;
+class Post extends DB
 {
-    public function get()
+	/* 
+	* Store database name
+	*/
+	protected static $db_name = Config::DB_NAME;
+	/* 
+	* Store database table name
+	*/
+	protected static $db_tbl = 'users';	
+    public function name()
     {
-        $db = new Mode();
+        $db = new DB();
         $db->method(); //example code
     }
 }
