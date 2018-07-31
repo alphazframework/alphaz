@@ -14,7 +14,7 @@ class Post extends DB
     /*
     * Store database table name
     */
-    protected static $db_tbl = 'users';
+    protected static $db_tbl = 'posts';
 
     public function name()
     {
