@@ -89,7 +89,7 @@ class Config
      *
      * @var bool
      */
-    const AUTO_CSRF_VARIFIED = false;
+    const AUTO_CSRF_VERIFIED = false;
 
     /**
      * Default path for views/theme.
