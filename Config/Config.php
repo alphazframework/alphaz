@@ -19,7 +19,7 @@ class Config
      *
      * @var inr
      */
-    const App_Version = '1.9.1';
+    const App_Version = '1.9.4';
 
     /**
      * Database host.
