@@ -1,0 +1,7 @@
+#!/usr/bin/php
+
+<?php
+
+require_once __DIR__ .'/vendor/autoload.php';
+
+(new \Softhub99\Zest_Framework\Console\Console())->run();
