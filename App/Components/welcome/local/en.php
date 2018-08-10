@@ -1,4 +1,4 @@
 <?php
- $GLOBALS['lang'] = [
+ return [
     'title:welcome:hello' => 'Welcome In this website',
 ];

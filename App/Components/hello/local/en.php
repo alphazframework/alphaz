@@ -1,4 +1,5 @@
 <?php
- $GLOBALS['lang'] = [
+
+ return [
     'title:home:hello' => 'Hello World',
 ];
