@@ -22,41 +22,6 @@ class Config
     const App_Version = '1.9.4';
 
     /**
-     * Database host.
-     *
-     * @var string
-     */
-    const DB_HOST = 'your-database-host';
-
-    /**
-     * Database driver.
-     *
-     * @var string
-     */
-    const DB_DRIVER = 'database-driver'; // MySQL is recommended
-
-    /**
-     * Database name.
-     *
-     * @var string
-     */
-    const DB_NAME = 'your-database-name';
-
-    /**
-     * Database user.
-     *
-     * @var string
-     */
-    const DB_USER = 'your-database-user';
-
-    /**
-     * Database password.
-     *
-     * @var string
-     */
-    const DB_PASS = 'your-database-password';
-
-    /**
      * Show or hide error messages on screen.
      *
      * @var bool
