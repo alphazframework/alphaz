@@ -7,14 +7,14 @@ namespace Config;
  */
 class Database
 {
-	/* Database DRIVE */
+    /* Database DRIVE */
     /**
      * Database driver.
      *
      * @var string
      */
     const DB_DRIVER = 'database-driver'; // MySQL is recommendeds
-	/* Start MYSQL configuration */
+    /* Start MYSQL configuration */
     /**
      * MySql host.
      *
@@ -35,13 +35,13 @@ class Database
      * @var string
      */
     const MYSQL_USER = 'your-database-user';
-	
+
     /**
      * Database password.
      *
      * @var string
      */
     const MYSQL_PASS = 'your-database-password';
-	
-	/* End MYSQL configuration */
+
+    /* End MYSQL configuration */
 }
