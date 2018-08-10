@@ -1,35 +1,36 @@
-<?php 
-class EMail 
+<?php
+
+class EMail
 {
-	/* Email configuration */
+    /* Email configuration */
     /**
-     * Site Email
+     * Site Email.
      *
      * @var string
      */
-    const SITE_EMAIL = "your-site-email";	
+    const SITE_EMAIL = 'your-site-email';
     /**
-     * SMPT Host
+     * SMPT Host.
      *
      * @var string
      */
-    const SMPT_HOST = "your-smtp-host";
+    const SMPT_HOST = 'your-smtp-host';
     /**
-     * SMPT User
+     * SMPT User.
      *
      * @var string
-     */    
-    const SMPT_USER = "your-smtp-user";
+     */
+    const SMPT_USER = 'your-smtp-user';
     /**
-     * SMPT Pass
+     * SMPT Pass.
      *
      * @var string
-     */    
-    const SMPT_PASS = "your-smtp-pass";
+     */
+    const SMPT_PASS = 'your-smtp-pass';
     /**
-     * SMPT Port
+     * SMPT Port.
      *
      * @var int
-     */    
-    const SMPT_PORT = 111;	
+     */
+    const SMPT_PORT = 111;
 }
