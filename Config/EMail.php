@@ -5,7 +5,7 @@ namespace Config;
 /**
  * Email configuration.
  */
-class EMail
+class Email
 {
 	/* Email configuration */
     /**
