@@ -4,22 +4,22 @@
 
 ## About Zest
 
-Zest is a very light-weight php framework without any depencies expect core and autoloader.
+Zest is a very light-weight PHP framework without any dependencies except core and autoloader.
 
 ## Installation
 
-http://zestframework.xyz/docs/installation
+http://zest.readthedocs.io/en/latest/installation/
 
 ## Documentation
 
-http://zestframework.xyz//docs/introduction
+http://zest.readthedocs.io/en/latest/
 
 ## Contributing
 
 Thank you for considering contributing to the Zest framework! Feel free to create a pull request.
 ### Contrubuting guide
 
-https://github.com/Softhub99/Zest/wiki/How-to-report-issue-&-Contribute
+http://zest.readthedocs.io/en/latest/zestcontribute/
 
 ## Security Vulnerabilities
 
