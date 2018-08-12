@@ -3,7 +3,7 @@
 namespace App\Models;
 
 use Config\Config;
-use Softhub99\Zest_Framework\Database\Db as DB;
+use Zest\Database\Db as DB;
 
 class Post extends DB
 {

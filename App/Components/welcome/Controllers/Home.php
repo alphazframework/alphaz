@@ -2,14 +2,14 @@
 
 namespace App\Components\welcome\Controllers;
 
-use Softhub99\Zest_Framework\Component\View\View;
+use Zest\Component\View\View;
 
 /**
  * Home controller.
  *
  * PHP version 7.0
  */
-class Home extends \Softhub99\Zest_Framework\Component\Controller\Controller
+class Home extends \Zest\Component\Controller\Controller
 {
     /**
      * Show the index page.

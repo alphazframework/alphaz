@@ -3,11 +3,11 @@
 namespace App\Controllers;
 
 //for using Middleware
-use Softhub99\Zest_Framework\Middleware\Middleware;
+use Zest\Middleware\Middleware;
 //for using View
-use Softhub99\Zest_Framework\View\View;
+use Zest\View\View;
 
-class Home extends \Softhub99\Zest_Framework\Controller\Controller
+class Home extends \Zest\Controller\Controller
 {
     /**
      * Show the index page.

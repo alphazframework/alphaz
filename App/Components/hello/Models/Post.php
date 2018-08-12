@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Softhub99\Zest_Framework\Database\Zest\Builder as Model;
+use Zest\Database\Zest\Builder as Model;
 
 /**
  * Example post model.

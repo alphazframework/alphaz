@@ -7,7 +7,7 @@ namespace App\Models;
  *
  * PHP version 7.0
  */
-class Database extends \Softhub99\Zest_Framework\Model\Model
+class Database extends \Zest\Model\Model
 {
     /**
      * Get all the users as an associative array.

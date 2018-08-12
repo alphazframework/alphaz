@@ -7,7 +7,7 @@ namespace App\Components\hello\Controllers;
  *
  * PHP version 7.0
  */
-class profile extends \Softhub99\Zest_Framework\Component\Controller\Controller
+class profile extends \Zest\Component\Controller\Controller
 {
     /**
      * Show the index page.
