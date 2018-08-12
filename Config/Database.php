@@ -13,7 +13,7 @@ class Database
      *
      * @var string
      */
-    const DB_DRIVER = 'database-driver'; // MySQL is recommendeds
+    const DB_DRIVER = 'database-driver'; // mysql is recommendeds
     /* Start MYSQL configuration */
     /**
      * MySql host.
