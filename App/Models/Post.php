@@ -20,6 +20,6 @@ class Post extends DB
     {
         $db = new DB();
         $db->db()->method(); //example code
-		//$db->db()->close() //close the connection
+        //$db->db()->close() //close the connection
     }
 }

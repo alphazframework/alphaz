@@ -6,6 +6,7 @@ namespace App\Controllers;
 use Softhub99\Zest_Framework\Middleware\Middleware;
 //for using View
 use Softhub99\Zest_Framework\View\View;
+
 class Home extends \Softhub99\Zest_Framework\Controller\Controller
 {
     /**
