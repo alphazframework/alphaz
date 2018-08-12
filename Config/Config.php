@@ -19,7 +19,7 @@ class Config
      *
      * @var inr
      */
-    const App_Version = '1.9.4';
+    const App_Version = '2.0.1';
 
     /**
      * Show or hide error messages on screen.

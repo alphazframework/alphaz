@@ -19,23 +19,23 @@ class Email
      *
      * @var string
      */
-    const SMPT_HOST = 'your-smtp-host';
+    const SMTP_HOST = 'your-smtp-host';
     /**
      * SMPT User.
      *
      * @var string
      */
-    const SMPT_USER = 'your-smtp-user';
+    const SMTP_USER = 'your-smtp-user';
     /**
      * SMPT Pass.
      *
      * @var string
      */
-    const SMPT_PASS = 'your-smtp-pass';
+    const SMTP_PASS = 'your-smtp-pass';
     /**
      * SMPT Port.
      *
      * @var int
      */
-    const SMPT_PORT = 111;
+    const SMTP_PORT = 111;
 }
