@@ -1,7 +1,7 @@
 <?php
 
     /*
-     * class that should be automatically resolved by the IOC
+     * class that should be automatically loaded
      */
 return
     [
