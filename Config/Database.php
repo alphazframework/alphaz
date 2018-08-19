@@ -14,6 +14,13 @@ class Database
      * @var string
      */
     const DB_DRIVER = 'database-driver'; // mysql is recommendeds
+    /**
+     * Database name.
+     *
+     * @var string
+     */
+    const DB_NAME = 'your-database-name';	
+	
     /* Start MYSQL configuration */
     /**
      * MySql host.
@@ -21,13 +28,6 @@ class Database
      * @var string
      */
     const MYSQL_HOST = 'your-database-host';
-
-    /**
-     * Database name.
-     *
-     * @var string
-     */
-    const MYSQL_NAME = 'your-database-name';
 
     /**
      * Database user.
