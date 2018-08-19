@@ -19,8 +19,8 @@ class Database
      *
      * @var string
      */
-    const DB_NAME = 'your-database-name';	
-	
+    const DB_NAME = 'your-database-name';
+
     /* Start MYSQL configuration */
     /**
      * MySql host.
