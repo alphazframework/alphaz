@@ -18,6 +18,6 @@
        }
     },
     "require":{
-    	"softhub99/zest_framework": "^2.0.2"
+    	"softhub99/zest_framework": "^2.0.3"
     }
 }
