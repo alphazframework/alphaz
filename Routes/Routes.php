@@ -1,12 +1,14 @@
 <?php
 
 // Add the Routes
-$router->add('', ['controller' => 'Home', 'action' => 'index']);
+$router->get('',"Home@index");
+
+
 //for test middleware
-$router->add('middlewaretest', ['controller'=>'Home', 'action'=>'middlewaretest']);
+$router->get('middlewaretest',"Home@middlewaretest");
 
 //Test using closure
-$router->add('user/{id:[0-9]}', function ($args) {
+$router->get('user/{id:[0-9]}', function ($args) {
     echo 'Example route using closure '.$args['id'];
 });
 
