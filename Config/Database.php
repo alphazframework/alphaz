@@ -45,8 +45,7 @@ class Database
 
     /* End MYSQL configuration */
 
-	/* SQLite configuration start */
-	const SQLITE_NAME = "../Storage/Data/test.db";
-	/* End SqLite configuration */	
-	
+    /* SQLite configuration start */
+    const SQLITE_NAME = '../Storage/Data/test.db';
+    /* End SqLite configuration */
 }
