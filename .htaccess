@@ -1,4 +1,4 @@
-<Files ~ "\.json|\.lock|LICENSE|\.md|\.gitignore|system\.php">
+<Files ~ "\.json|\.lock|LICENSE|ZEST|zest|Zest|\.md|\.gitignore|system\.php">
 Order allow,deny
 Deny from all
 </Files>

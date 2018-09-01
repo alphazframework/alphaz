@@ -44,4 +44,9 @@ class Database
     const MYSQL_PASS = 'your-database-password';
 
     /* End MYSQL configuration */
+
+	/* SQLite configuration start */
+	const SQLITE_NAME = "../Storage/Data/test.db";
+	/* End SqLite configuration */	
+	
 }
