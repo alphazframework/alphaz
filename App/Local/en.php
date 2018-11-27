@@ -4,7 +4,7 @@ return  [
     'title:home'     => 'Zest Framework',
     'framework:home' => 'Zest',
     'app:home'       => 'Start building your app',
-	
+
     //Validations
     'string:validation'         => 'The :field much be type of string like, mango',
     'required:validation'       => 'The :field is required',
@@ -16,5 +16,5 @@ return  [
     'alpha:validation'          => 'The value must only contain characters of the alphabet',
     'subnet:validation'         => 'The value must be a valid IPv4 subnet',
     'validate:validation'       => 'Json is invilide',
-    'unique:validation'         => 'The :field value already exists, try another',    	
+    'unique:validation'         => 'The :field value already exists, try another',
 ];
