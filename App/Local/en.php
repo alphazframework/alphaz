@@ -17,4 +17,9 @@ return  [
     'subnet:validation'         => 'The value must be a valid IPv4 subnet',
     'validate:validation'       => 'Json is invilide',
     'unique:validation'         => 'The :field value already exists, try another',
+	
+	//Pagination
+	'first:page:pagination' => 'First',
+	'last:page:pagination' => 'Last',
+
 ];
