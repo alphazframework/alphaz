@@ -8,43 +8,42 @@ class ExampleMiddleware
     {
         //echo 'Before';
         //Get the headers
-		$headers = $request->getHeaders();
-		foreach ($headers as $name => $values) {
-		    echo $name . ": " . implode(", ", $values);
-		}
-		//OR
-		//Send request to https://zestframework.xyz login page with post method
-		 $request = $request->curl("https://zestframework.xyz/account/login/action","POST");
-		 //Set transfer and return header
-		$request->setReturnHeader(true)->setReturnTransfer(true);
-		//Set the fields
-		$request->setFields([
-		    'username'  => 'your-username',
-		    'password' => 'your-password'
-		]);
-		//Send the request
-		$request->send();
-		// return => 200
-		$statusCode = $request->getCode();
-		// Display the body of the returned response
-		echo "<br\>".$request->getBody();
-
+        $headers = $request->getHeaders();
+        foreach ($headers as $name => $values) {
+            echo $name.': '.implode(', ', $values);
+        }
+        //OR
+        //Send request to https://zestframework.xyz login page with post method
+        $request = $request->curl('https://zestframework.xyz/account/login/action', 'POST');
+        //Set transfer and return header
+        $request->setReturnHeader(true)->setReturnTransfer(true);
+        //Set the fields
+        $request->setFields([
+            'username'  => 'your-username',
+            'password'  => 'your-password',
+        ]);
+        //Send the request
+        $request->send();
+        // return => 200
+        $statusCode = $request->getCode();
+        // Display the body of the returned response
+        echo "<br\>".$request->getBody();
     }
 
     public function after($request, $response)
     {
         //echo 'After';
-         $config = [
+        $config = [
           'code'    => 200,
-          'version' => "1.1",
-          'message' => "Zest Framework",
+          'version' => '1.1',
+          'message' => 'Zest Framework',
           'headers' => [
               'Content-Type' => 'text/html',
-              'poweredBy' => 'Zest Framework',
-          ]
+              'poweredBy'    => 'Zest Framework',
+          ],
         ];
-		$response = new $response($config);
-		$response->setBody("I am Response Body after Example Middleware");
-		$response->send();
+        $response = new $response($config);
+        $response->setBody('I am Response Body after Example Middleware');
+        $response->send();
     }
 }
