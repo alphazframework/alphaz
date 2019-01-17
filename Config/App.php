@@ -3,27 +3,27 @@
 /* Zest Frameowrk config file */
 return [
 
-    /**
+    /*
      * Basic configuration.
      */
    'Config' => [
-        'APP_NAME' => "Zest Framework",
-        'APP_VERSION' => '3.0.0',
-        'SHOW_ERRORS' => true,
-        'LANGUAGE' => 'en',
-        'DATA_DIR' => '../Storage/Data/',
-        'CACHE_DIR' => '../Storage/Cache/',
-        'SESSION_PATH' => '../Storage/Session/',
-        'THEME_PATH' => '../App/Views/standard/',
-        'CRYPTO_KEY' => 'your-key',
-        'ROUTER_CACHE' => false,
+        'APP_NAME'               => 'Zest Framework',
+        'APP_VERSION'            => '3.0.0',
+        'SHOW_ERRORS'            => true,
+        'LANGUAGE'               => 'en',
+        'DATA_DIR'               => '../Storage/Data/',
+        'CACHE_DIR'              => '../Storage/Cache/',
+        'SESSION_PATH'           => '../Storage/Session/',
+        'THEME_PATH'             => '../App/Views/standard/',
+        'CRYPTO_KEY'             => 'your-key',
+        'ROUTER_CACHE'           => false,
         'ROUTE_CACHE_REGENERATE' => 3600,
-        'MAINTENANCE' => false,
+        'MAINTENANCE'            => false,
     ],
 
-    /**
+    /*
      * Database configuration.
-     */    
+     */
     'Database' => [
         /* Database DRIVE */
         'DB_DRIVER' => 'database-drive', // mysql is recommendeds
@@ -34,12 +34,12 @@ return [
         /* MYSQL PASS */
         'MYSQL_USER' => 'mysql-user',
         /* MYSQL PASS*/
-        'MYSQL_PASS' => 'mysql-pass',      
+        'MYSQL_PASS' => 'mysql-pass',
         /* SQLite name with path */
-        'SQLITE_NAME' => 'path/to/sqlite', 
+        'SQLITE_NAME' => 'path/to/sqlite',
     ],
 
-    /**
+    /*
      * Auth configuration.
      */
     'Auth' => [
@@ -68,9 +68,9 @@ return [
             'account_verify'     => 'You should verify your account in order to login, another verification is sended to your email addresss',
             'already_login'      => 'Account already loggedin',
             'need_login'         => 'You need login to your account in order to update profile',
-            'token'              => 'Invilid request',            
+            'token'              => 'Invilid request',
         ],
-        
+
         /* Defai;t success messages */
         'success' => [
             'signin'          => 'Login successfully',
@@ -95,9 +95,9 @@ return [
         ],
     ],
 
-    /**
+    /*
      * Database configuration.
-     */    
+     */
     'email' => [
         /* Site Email */
         'SITE_EMAIL' => 'site-email', // mysql is recommendeds
@@ -108,14 +108,14 @@ return [
         /* SMTP PASS */
         'SMTP_PASS' => 'smtp-pass',
         /* SMTP PORT*/
-        'SMTP_PORT' => 'smtp-port',      
+        'SMTP_PORT' => 'smtp-port',
     ],
 
     /* Dependencies */
-    /** class that should be automatically resolved by the IOC */
+    /* class that should be automatically resolved by the IOC */
     'dependencies' => [
-		//examples
+        //examples
         'version' => \Zest\Common\Version::class,
-        'pass' => \Zest\Common\passwordManipulation::class,
-    ]
+        'pass'    => \Zest\Common\passwordManipulation::class,
+    ],
 ];
