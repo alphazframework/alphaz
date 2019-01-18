@@ -6,7 +6,6 @@ use Zest\Database\Db as DB;
 
 class Post
 {
-
     public function name()
     {
         $db = new DB();
