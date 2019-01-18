@@ -8,4 +8,3 @@ set_error_handler('Zest\Expection\Expection::errorHandler');
 set_exception_handler('Zest\Expection\Expection::exceptionHandler');
 (new Zest\Router\App())->run();
 (new Zest\Common\Maintenance())->run();
-(new Zest\Common\Server())->get();

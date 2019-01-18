@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App\Components\welcome\Models;
 
 use Zest\Database\Db as DB;
 

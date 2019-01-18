@@ -6,3 +6,6 @@ $namespace = "App\Components\welcome\Controllers";
 
 // Its create the url localhost/blog/helloworld'
 $com->add('welcome', ['controller' => 'Home', 'action' => 'index', 'namespace'=>$namespace]);
+
+//Route with middleware
+$com->get('welcome/middleware',"Home@index@$namespace","App\Components\hello\Middleware\@Hello");

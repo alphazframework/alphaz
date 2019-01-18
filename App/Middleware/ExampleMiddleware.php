@@ -4,7 +4,7 @@ namespace App\Middleware;
 
 class ExampleMiddleware
 {
-    public function before($request, $response)
+    public function before($request, $response, $params)
     {
         //echo 'Before';
         //Get the headers
@@ -30,7 +30,7 @@ class ExampleMiddleware
         echo "<br\>".$request->getBody();
     }
 
-    public function after($request, $response)
+    public function after($request, $response, $params)
     {
         //echo 'After';
         $config = [
