@@ -21,23 +21,23 @@ return  [
     //Pagination
     'first:page:pagination' => 'First',
     'last:page:pagination'  => 'Last',
-	
-	//Auth
-	/* ERRORS */
-	'auth:error:password:confirm' => 'Password much be matched',
-	'auth:error:username:not:exists' => 'Sorry, the username does not exists',
-	'auth:error:email:not:exists' =>  'Sorry, the email does not exists',
-	'auth:error:password:sticky' => 'Password much be greate then 6 much contain lowercase,uppercase and special character', 
-	'auth:error:need:verification' => 'You should verify your account in order to login, another verification is sended to your email addresss',
-	'auth:error:already:login' => 'Account already loggedin',
-	'auth:error:login:required' => 'You need login to your account in order to do that action',
-	'auth:error:token' => 'Invilid request',
-	/* SUCCESS */
-	'auth:success:signin'          => 'Login successfully',
-	'auth:success:signup'          => 'Your account has been created successfully',
-	'auth:success:update'          => 'Your account has been updated',
-	'auth:success:update_password' => 'Your password has been updated',
-	'auth:success:verified'        => 'Your account verified login now to enjoy in our services',
-	'auth:success:reset'           => 'Password reset request has been sended to your email',	
-	
+
+    //Auth
+    /* ERRORS */
+    'auth:error:password:confirm'    => 'Password much be matched',
+    'auth:error:username:not:exists' => 'Sorry, the username does not exists',
+    'auth:error:email:not:exists'    => 'Sorry, the email does not exists',
+    'auth:error:password:sticky'     => 'Password much be greate then 6 much contain lowercase,uppercase and special character',
+    'auth:error:need:verification'   => 'You should verify your account in order to login, another verification is sended to your email addresss',
+    'auth:error:already:login'       => 'Account already loggedin',
+    'auth:error:login:required'      => 'You need login to your account in order to do that action',
+    'auth:error:token'               => 'Invilid request',
+    /* SUCCESS */
+    'auth:success:signin'          => 'Login successfully',
+    'auth:success:signup'          => 'Your account has been created successfully',
+    'auth:success:update'          => 'Your account has been updated',
+    'auth:success:update_password' => 'Your password has been updated',
+    'auth:success:verified'        => 'Your account verified login now to enjoy in our services',
+    'auth:success:reset'           => 'Password reset request has been sended to your email',
+
 ];
