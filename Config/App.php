@@ -21,6 +21,38 @@ return [
         'MAINTENANCE'            => false,
     ],
 
+	 /* Hashing */	
+	'hashing' => [
+		/* Default Hash Driver */
+		'driver' => 'argon2id',
+		
+		/*
+		| Bcrypt Options
+		
+		| Here you may specify the configuration options that should be used when
+		| passwords are hashed using the Bcrypt algorithm. This will allow you
+		| to control the amount of time it takes to hash the given password.
+		|
+		*/
+        'bcrypt' => [
+            'cost' => 10,
+        ],
+		
+		/*
+		| Argon Options
+		
+		| Here you may specify the configuration options that should be used when
+		| passwords are hashed using the Bcrypt algorithm. This will allow you
+		| to control the amount of time it takes to hash the given password.
+		|
+		*/
+        'argon' => [
+            'memory' => 1024,
+            'threads' => 2,
+            'time' => 2,
+        ],        
+	],	
+	
     /*
      * Database configuration.
      */
@@ -57,46 +89,10 @@ return [
         'IS_VERIFY_EMAIL' => false,
         /* Is user password should be strong? */
         'STICKY_PASSWORD' => false,
-
-        /* Default errors messages */
-        'errors' => [
-            'password_confitm'   => 'Password much be matched',
-            'username_not_exist' => 'Sorry, the username does not exists',
-            'email_not_exist'    => 'Sorry, the email does not exists',
-            'password_match'     => 'Password does not matched',
-            'sticky_password'    => 'Password much be greate then 6 much contain lowercase,uppercase and special character',
-            'account_verify'     => 'You should verify your account in order to login, another verification is sended to your email addresss',
-            'already_login'      => 'Account already loggedin',
-            'need_login'         => 'You need login to your account in order to update profile',
-            'token'              => 'Invilid request',
-        ],
-
-        /* Defai;t success messages */
-        'success' => [
-            'signin'          => 'Login successfully',
-            'signup'          => 'Your account has been created successfully',
-            'update'          => 'Your account has been updated',
-            'update_password' => 'Your password has been updated',
-            'verified'        => 'Your account verified login now to enjoy in our services',
-            'reset'           => 'Password reset request has been sended to your email',
-        ],
-
-        /* Default email subjects */
-        'subjects' => [
-            'need_verify' => 'Account verification required',
-            'verified'    => 'Account verified',
-            'reset'       => 'Password reset request',
-        ],
-
-        'bodies' => [
-            'need_verify' => 'Dear :email your account has been created you need verify your account<br><a href=":link">verify my account</a><br>Click above link if you unable to open copy paste below link <br>:link',
-            'reset'       => 'Dear :email We recieve password reset request form your account reset your password now<br><a href=":link">reset my password</a><br>Click above link if you unable to open copy paste below link <br>:link',
-            'verified'    => 'Dear :email your account verified login now to enjoy in our services',
-        ],
     ],
 
     /*
-     * Database configuration.
+     * Email configuration.
      */
     'email' => [
         /* Site Email */
