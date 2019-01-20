@@ -5,8 +5,7 @@ return  [
     'framework:home' => 'Zest',
     'app:home'       => 'Start building your app',
 
-	
-	/* DO NOT DELETE THESE DEFAULTS */
+    /* DO NOT DELETE THESE DEFAULTS */
     //Validations
     'string:validation'         => 'The :field much be type of string like, mango',
     'required:validation'       => 'The :field is required',
@@ -41,13 +40,13 @@ return  [
     'auth:success:update_password' => 'Your password has been updated',
     'auth:success:verified'        => 'Your account verified login now to enjoy in our services',
     'auth:success:reset'           => 'Password reset request has been sended to your email',
-	/* Email subjects */
-	'auth:subject:need:verify' => 'Account verification required',
-	'auth:subject:verified'    => 'Account verified',
-	'auth:subject:reset'       => 'Password reset request',
-	/* Email Bodies */
-	'auth:body:need:verify' => 'Dear :email your account has been created you need verify your account<br><a href=":link">verify my account</a><br>Click above link if you unable to open copy paste below link <br>:link',
-	'auth:body:reset'       => 'Dear :email We recieve password reset request form your account reset your password now<br><a href=":link">reset my password</a><br>Click above link if you unable to open copy paste below link <br>:link',
-	'auth:body:verified'    => 'Dear :email your account verified login now to enjoy in our services',
-	
+    /* Email subjects */
+    'auth:subject:need:verify' => 'Account verification required',
+    'auth:subject:verified'    => 'Account verified',
+    'auth:subject:reset'       => 'Password reset request',
+    /* Email Bodies */
+    'auth:body:need:verify' => 'Dear :email your account has been created you need verify your account<br><a href=":link">verify my account</a><br>Click above link if you unable to open copy paste below link <br>:link',
+    'auth:body:reset'       => 'Dear :email We recieve password reset request form your account reset your password now<br><a href=":link">reset my password</a><br>Click above link if you unable to open copy paste below link <br>:link',
+    'auth:body:verified'    => 'Dear :email your account verified login now to enjoy in our services',
+
 ];
