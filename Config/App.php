@@ -15,12 +15,24 @@ return [
         'CACHE_DIR'               => '../Storage/Cache/',
         'SESSION_PATH'            => '../Storage/Session/',
         'THEME_PATH'              => '../App/Views/standard/',
-        'CRYPTO_KEY'              => 'your-key',
         'ROUTER_CACHE'            => false,
         'ROUTER_CACHE_REGENERATE' => 3600,
         'MAINTENANCE'             => false,
     ],
 
+    /* Encryption */
+    'encryption' => [
+        /*
+        | Supported "openssl" and "sodium"
+        */
+        'driver' => 'openssl',
+		
+		/* Openssl option */
+        'openssl' => [
+            'key' => 'euyq74tjfdskjFDSGq74taeoqiertp',
+        ],
+    ],	
+	
      /* Hashing */
     'hashing' => [
         /* Default Hash Driver
