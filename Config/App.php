@@ -26,13 +26,13 @@ return [
         | Supported "openssl" and "sodium"
         */
         'driver' => 'openssl',
-		
-		/* Openssl option */
+
+        /* Openssl option */
         'openssl' => [
             'key' => 'euyq74tjfdskjFDSGq74taeoqiertp',
         ],
-    ],	
-	
+    ],
+
      /* Hashing */
     'hashing' => [
         /* Default Hash Driver
