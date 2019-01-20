@@ -17,13 +17,15 @@ return [
         'THEME_PATH'             => '../App/Views/standard/',
         'CRYPTO_KEY'             => 'your-key',
         'ROUTER_CACHE'           => false,
-        'ROUTE_CACHE_REGENERATE' => 3600,
+        'ROUTER_CACHE_REGENERATE' => 3600,
         'MAINTENANCE'            => false,
     ],
 
      /* Hashing */
     'hashing' => [
-        /* Default Hash Driver */
+        /* Default Hash Driver 
+		| Supported: "bcrypt", "argon2i", "argon2id"		
+		*/
         'driver' => 'argon2id',
 
         /*
