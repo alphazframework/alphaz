@@ -7,25 +7,25 @@ return [
      * Basic configuration.
      */
    'Config' => [
-        'APP_NAME'               => 'Zest Framework',
-        'APP_VERSION'            => '3.0.0',
-        'SHOW_ERRORS'            => true,
-        'LANGUAGE'               => 'en',
-        'DATA_DIR'               => '../Storage/Data/',
-        'CACHE_DIR'              => '../Storage/Cache/',
-        'SESSION_PATH'           => '../Storage/Session/',
-        'THEME_PATH'             => '../App/Views/standard/',
-        'CRYPTO_KEY'             => 'your-key',
-        'ROUTER_CACHE'           => false,
+        'APP_NAME'                => 'Zest Framework',
+        'APP_VERSION'             => '3.0.0',
+        'SHOW_ERRORS'             => true,
+        'LANGUAGE'                => 'en',
+        'DATA_DIR'                => '../Storage/Data/',
+        'CACHE_DIR'               => '../Storage/Cache/',
+        'SESSION_PATH'            => '../Storage/Session/',
+        'THEME_PATH'              => '../App/Views/standard/',
+        'CRYPTO_KEY'              => 'your-key',
+        'ROUTER_CACHE'            => false,
         'ROUTER_CACHE_REGENERATE' => 3600,
-        'MAINTENANCE'            => false,
+        'MAINTENANCE'             => false,
     ],
 
      /* Hashing */
     'hashing' => [
-        /* Default Hash Driver 
-		| Supported: "bcrypt", "argon2i", "argon2id"		
-		*/
+        /* Default Hash Driver
+        | Supported: "bcrypt", "argon2i", "argon2id"
+        */
         'driver' => 'argon2id',
 
         /*
