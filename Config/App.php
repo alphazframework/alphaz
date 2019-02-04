@@ -128,7 +128,7 @@ return [
         'version' => \Zest\Common\Version::class,
         'pass'    => \Zest\Common\passwordManipulation::class,
     ],
-	
+
     /*
      * Files Configuration
     */
@@ -150,7 +150,7 @@ return [
                 'application/et-stream',
                 'image/x-icon',
                 'image/icon',
-                'image/svg+xml',                
+                'image/svg+xml',
             ],
         ],
 
@@ -162,5 +162,5 @@ return [
             'media' => ['mp4', 'mp3', 'wav', '3gp'],
         ],
     ],
-	
+
 ];
