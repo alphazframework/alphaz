@@ -128,4 +128,39 @@ return [
         'version' => \Zest\Common\Version::class,
         'pass'    => \Zest\Common\passwordManipulation::class,
     ],
+	
+    /*
+     * Files Configuration
+    */
+    'files' => [
+        //Default file mine type
+        'mine' => [
+            'type' => [
+                'application/x-zip-compressed',
+                'application/msword',
+                'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                'image/gif',
+                'image/jpeg',
+                'image/jpeg',
+                'audio/mpeg',
+                'video/mp4',
+                'application/pdf',
+                'image/png',
+                'application/zip',
+                'application/et-stream',
+                'image/x-icon',
+                'image/icon',
+                'image/svg+xml',                
+            ],
+        ],
+
+        //Default types
+        'types' => [
+            'image' => ['jpg', 'png', 'jpeg', 'gif', 'ico', 'svg'],
+            'zip'   => ['zip', 'tar', '7zip', 'rar'],
+            'docs'  => ['pdf', 'docs', 'docx'],
+            'media' => ['mp4', 'mp3', 'wav', '3gp'],
+        ],
+    ],
+	
 ];
