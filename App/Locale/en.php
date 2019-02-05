@@ -48,5 +48,13 @@ return  [
     'auth:body:need:verify' => 'Dear :email your account has been created you need verify your account<br><a href=":link">verify my account</a><br>Click above link if you unable to open copy paste below link <br>:link',
     'auth:body:reset'       => 'Dear :email We recieve password reset request form your account reset your password now<br><a href=":link">reset my password</a><br>Click above link if you unable to open copy paste below link <br>:link',
     'auth:body:verified'    => 'Dear :email your account verified login now to enjoy in our services',
+	
+	//Default FILES Messages
+    'z:files:error:extension' => 'The file extension .%s not supported',
+    'z:files:error:exceed:limit' => 'The file size %sbytes exceed the maximum limit',
+    'z:files:error:somethingwrong' => 'Something went wrong',
+    'z:files:error:invilid:file' => 'The uploaded file is not valid file',
+    'z:files:success' => 'File uploaded successfully',
+    'z:files:error:mine:type' => 'The file mineType \'%s\' not supported',
 
 ];
