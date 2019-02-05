@@ -67,6 +67,35 @@ return [
         ],
     ],
 
+	/* Cache Configuration */
+	
+    /*    |--------------------------------------------------------------------------
+    | Cache    |--------------------------------------------------------------------------
+    |
+    | This option controls the default cache connection that gets used while
+    | using this caching library. This connection is used when another is
+    | not explicitly specified when executing a given caching function.
+    | Supported: "apc", "apcu" , "session", "file", "memcached", "memcached", "redis"
+    |
+    */	
+    'cache' => [
+        'driver' => 'file',
+
+        'memcache' => [
+            'host' => 'memcache-host',
+            'port' => 'memcache-port',
+        ],
+        'memcached' => [
+            'host'   => 'memcached-host',
+            'port'   => 'memcached-port',
+            'weight' => 'memcached-weight',
+        ],
+        'redis' => [
+            'host' => 'redis-host',
+            'port' => 'redis-port',            
+        ]
+    ],	
+	
     /*
      * Database configuration.
      */
