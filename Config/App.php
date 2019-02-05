@@ -67,8 +67,8 @@ return [
         ],
     ],
 
-	/* Cache Configuration */
-	
+    /* Cache Configuration */
+
     /*    |--------------------------------------------------------------------------
     | Cache    |--------------------------------------------------------------------------
     |
@@ -77,7 +77,7 @@ return [
     | not explicitly specified when executing a given caching function.
     | Supported: "apc", "apcu" , "session", "file", "memcached", "memcached", "redis"
     |
-    */	
+    */
     'cache' => [
         'driver' => 'file',
 
@@ -92,10 +92,10 @@ return [
         ],
         'redis' => [
             'host' => 'redis-host',
-            'port' => 'redis-port',            
-        ]
-    ],	
-	
+            'port' => 'redis-port',
+        ],
+    ],
+
     /*
      * Database configuration.
      */
