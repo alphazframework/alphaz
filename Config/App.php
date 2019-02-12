@@ -192,4 +192,16 @@ return [
         ],
     ],
 
+	/*
+     * 
+     * Class aliases
+     * 
+     *
+     * The key is the alias and the value is the actual class.
+     */
+    'class_aliases' =>
+    [
+
+    ],
+	
 ];
