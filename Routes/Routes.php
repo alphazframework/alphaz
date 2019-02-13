@@ -10,8 +10,3 @@ $router->get('middlewaretest', 'Home@middlewaretest');
 $router->get('user/{id:[0-9]}', function ($args) {
     echo 'Example route using closure '.$args['id'];
 });
-
-//Cache the Routes
-$router->cacheRouters();
-//Dispatch the request
-$router->dispatch($_SERVER['QUERY_STRING']);
