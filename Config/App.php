@@ -27,8 +27,8 @@ return [
         | Supported "openssl" and "sodium"
         */
         'driver' => 'openssl',
-		
-		// Key, that is use to encrypt and decrypt.
+
+        // Key, that is use to encrypt and decrypt.
         'key' => 'euyq74tjfdskjFDSGq74taeoqiertp',
     ],
 
