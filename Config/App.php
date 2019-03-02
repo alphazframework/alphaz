@@ -14,7 +14,7 @@ return [
         'DATA_DIR'                => '../Storage/Data/',
         'CACHE_DIR'               => '../Storage/Cache/',
         'SESSION_PATH'            => '../Storage/Session/',
-        'THEME_PATH'              => '../App/Views/standard/',
+        'THEME_PATH'              => '../App/Views/',
         'ROUTER_CACHE'            => false,
         'ROUTER_CACHE_REGENERATE' => 3600,
         'MAINTENANCE'             => false,
