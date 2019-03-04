@@ -22,6 +22,8 @@ return  [
     //Pagination
     'first:page:pagination' => 'First',
     'last:page:pagination'  => 'Last',
+    'prev:page:pagination'  => 'Prev',
+    'next:page:pagination'  => 'Next',
 
     //Auth
     /* ERRORS */
