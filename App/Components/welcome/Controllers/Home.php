@@ -4,7 +4,7 @@ namespace App\Components\welcome\Controllers;
 
 use Zest\Component\View\View;
 
-define("__WELCOME__", 'welcome/Views/');
+define('__WELCOME__', 'welcome/Views/');
 
 class Home extends \Zest\Controller\Controller
 {

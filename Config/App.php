@@ -13,47 +13,47 @@ return [
         'app_name'                => 'Zest Framework',
     /*
         //App Version
-    */        
+    */
         'app_version'             => '3.0.0',
     /*
         //Display Error (recommended turn off in production)
-    */        
+    */
         'SHOW_ERRORS'             => true,
     /*
         //Default language
-    */        
+    */
         'language'                => 'en',
     /*
         //Default data dr
-    */        
+    */
         'data_dir'                => '../Storage/Data/',
     /*
         //Default cache dr
-    */          
+    */
         'cache_dir'               => '../Storage/Cache/',
     /*
         //Default session path
-    */          
+    */
         'session_path'            => '../Storage/Session/',
     /*
         //Current theme
-    */          
+    */
         'theme_path'              => '../App/Views/',
     /*
         //Router cache
-    */          
+    */
         'router_cache'            => false,
     /*
         //When router cache should regenerate
-    */          
+    */
         'router_cache_regenerate' => 3600,
     /*
         //Maintance mode
-    */          
+    */
         'maintenance'             => false,
     /*
         //Default time zone
-    */          
+    */
         'time_zone'               => 'UTC',
     ],
 
