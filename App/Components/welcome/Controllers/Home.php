@@ -4,12 +4,9 @@ namespace App\Components\welcome\Controllers;
 
 use Zest\Component\View\View;
 
-/**
- * Home controller.
- *
- * PHP version 7.0
- */
-class Home extends \Zest\Component\Controller\Controller
+define("__WELCOME__", 'welcome/Views/');
+
+class Home extends \Zest\Controller\Controller
 {
     /**
      * Show the index page.
@@ -18,7 +15,7 @@ class Home extends \Zest\Component\Controller\Controller
      */
     public function index()
     {
-        echo View::view('welcome', 'Home/index');
+        View::rander(__WELCOME__.'Home/index');
     }
 
     public function about()
