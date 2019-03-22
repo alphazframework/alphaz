@@ -1,4 +1,5 @@
 <?php
+define('__ZEST__ROOT__', __DIR__);
 
 require_once __DIR__.'/vendor/autoload.php';
 $expection = new \Zest\Expection\Expection();

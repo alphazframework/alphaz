@@ -26,19 +26,19 @@ return [
     /*
         //Default data dr
     */
-        'data_dir'                => '../Storage/Data/',
+        'data_dir'                => 'Data/',
     /*
         //Default cache dr
     */
-        'cache_dir'               => '../Storage/Cache/',
+        'cache_dir'               => 'Cache/',
     /*
         //Default session path
     */
-        'session_path'            => '../Storage/Session/',
+        'session_path'            => 'Session/',
     /*
         //Current theme
     */
-        'theme_path'              => '../App/Views/',
+        'theme_path'              => 'App/Views/',
     /*
         //Router cache
     */
