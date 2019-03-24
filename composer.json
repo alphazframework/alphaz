@@ -27,9 +27,5 @@
         "psr-4": {
             "Tests\\": "Tests/"
         }
-    },
-    "config":{
-        "optimize-autoloader":true,
-        "preferred-install": "dist"
-    }	
+    }
 }
