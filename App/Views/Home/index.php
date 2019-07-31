@@ -16,7 +16,7 @@
 	<div class='container-fluid'>
 	<div class="row">
 			<div class="col-6">	
-			<img src="<?= site_base_url(); ?>image/zest.png" class="" id='logo'>	
+			<img src="<?= site_base_url(); ?>/image/zest.png" class="" id='logo'>	
 			</div>	
 			<div class="col-6">
 			<div id='margin'></div>
