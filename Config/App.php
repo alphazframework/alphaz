@@ -6,7 +6,7 @@ return [
     /*
      * Basic configuration.
      */
-   'Config' => [
+   'App' => [
     /*
         //App Name
     */
