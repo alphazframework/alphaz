@@ -24,13 +24,12 @@ https://zestframework.github.io/
 Thank you for considering contributing to the Zest framework! Feel free to create a pull request.
 ### Contrubuting guide
 
-http://zest.readthedocs.io/en/latest/zestcontribute/
+https://zestframework.github.io/contribution/
 
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Zest, 
-please send an e-mail to Muhammad Umer Farooq
-via [mumerfarooqlablnet01@gmail.com](mailto:mumerfarooqlablnet01@gmail.com). 
+please send an e-mail to our team via [zestframework@outlook.com](mailto:zestframework@outlook.com). 
 All security vulnerabilities will be promptly addressed.
 
 ## License
