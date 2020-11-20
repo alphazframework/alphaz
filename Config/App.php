@@ -73,7 +73,7 @@ return [
         /* Default Hash Driver
         | Supported: "bcrypt", "argon2i", "argon2id"
         */
-        'driver' => 'argon2id',
+        'driver' => 'bcrypt',
 
         /*
         | Bcrypt Options
