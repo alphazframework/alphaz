@@ -1,3 +1,6 @@
 [submodule "App/Components/com_installer"]
 	path = App/Components/com_installer
 	url = https://github.com/zestframework/com_installer.git
+[submodule "App/Components/Welcome"]
+	path = App/Components/Welcome
+	url = https://github.com/zestframework/Welcome.git
