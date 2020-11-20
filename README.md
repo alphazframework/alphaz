@@ -13,11 +13,11 @@ Zest is a very light-weight PHP framework without any dependencies except core a
 
 ## Installation
 
-http://zest.readthedocs.io/en/latest/installation/
+https://zestframework.github.io/master/basics/installation/
 
 ## Documentation
 
-http://zest.readthedocs.io/en/latest/
+https://zestframework.github.io/
 
 ## Contributing
 
@@ -29,8 +29,8 @@ http://zest.readthedocs.io/en/latest/zestcontribute/
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Zest, 
-please send an e-mail to Malik Umer Farooq
-via [lablnet01@gmail.com](mailto:lablnet01@gmail.com). 
+please send an e-mail to Muhammad Umer Farooq
+via [mumerfarooqlablnet01@gmail.com](mailto:mumerfarooqlablnet01@gmail.com). 
 All security vulnerabilities will be promptly addressed.
 
 ## License
