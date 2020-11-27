@@ -6,52 +6,52 @@ return [
     /*
      * Basic configuration.
      */
-   'App' => [
-    /*
+    'App' => [
+        /*
         //App Name
     */
         'app_name'                => 'Zest Framework',
-    /*
+        /*
         //App Version
     */
         'app_version'             => '3.0.0',
-    /*
+        /*
         //Display Error (recommended turn off in production)
     */
         'SHOW_ERRORS'             => true,
-    /*
+        /*
         //Default language
     */
         'language'                => 'en',
-    /*
+        /*
         //Default data dr
     */
         'data_dir'                => 'Data/',
-    /*
+        /*
         //Default cache dr
     */
         'cache_dir'               => 'Cache/',
-    /*
+        /*
         //Default session path
     */
         'session_path'            => 'Session/',
-    /*
+        /*
         //Current theme
     */
         'theme_path'              => 'App/Views/',
-    /*
+        /*
         //Router cache
     */
         'router_cache'            => false,
-    /*
+        /*
         //When router cache should regenerate
     */
         'router_cache_regenerate' => 3600,
-    /*
+        /*
         //Maintance mode
     */
         'maintenance'             => false,
-    /*
+        /*
         //Default time zone
     */
         'time_zone'               => 'UTC',
@@ -68,7 +68,7 @@ return [
         'key' => 'euyq74tjfdskjFDSGq74taeoqiertp',
     ],
 
-     /* Hashing */
+    /* Hashing */
     'hashing' => [
         /* Default Hash Driver
         | Supported: "bcrypt", "argon2i", "argon2id"
