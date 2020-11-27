@@ -34,13 +34,13 @@ class ExampleMiddleware
     {
         //echo 'After';
         $config = [
-          'code'    => 200,
-          'version' => '1.1',
-          'message' => 'Zest Framework',
-          'headers' => [
-              'Content-Type' => 'text/html',
-              'poweredBy'    => 'Zest Framework',
-          ],
+            'code'    => 200,
+            'version' => '1.1',
+            'message' => 'Zest Framework',
+            'headers' => [
+                'Content-Type' => 'text/html',
+                'poweredBy'    => 'Zest Framework',
+            ],
         ];
         $response = new $response($config);
         $response->setBody('I am Response Body after Example Middleware');
