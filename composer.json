@@ -6,9 +6,9 @@
     "type":"project",
     "authors": [
         {
-            "name": "Malik Umer Farooq",
-            "email":"lablnet01@gmail.com",
-            "homepage": "https://softhub99.com"
+            "name": "Muhammad Umer Farooq",
+            "email":"mumerfarooqlablnet01@gmail.com",
+            "homepage": "http://localhost/Zest/Public/"
         }
     ],	
     "require":{
@@ -29,3 +29,4 @@
         }
     }
 }
+
