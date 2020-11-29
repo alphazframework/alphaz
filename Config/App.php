@@ -10,7 +10,7 @@ return [
         /*
         //App Name
     */
-        'app_name'                => 'Zest Framework',
+        'app_name'                => get_env('APP_NAME'),
         /*
         //App Version
     */
@@ -18,7 +18,7 @@ return [
         /*
         //Display Error (recommended turn off in production)
     */
-        'SHOW_ERRORS'             => true,
+        'SHOW_ERRORS'             => get_env('APP_DEBUG'),
         /*
         //Default language
     */
@@ -114,20 +114,20 @@ return [
     |
     */
     'cache' => [
-        'driver' => 'file',
+        'driver' => get_env('CACHE_DRIVER'),
 
         'memcache' => [
-            'host' => 'memcache-host',
-            'port' => 'memcache-port',
+            'host' => get_env('MEMCACHE_HOST'),
+            'port' => get_env('MEMCACHE_PORT'),
         ],
         'memcached' => [
-            'host'   => 'memcached-host',
-            'port'   => 'memcached-port',
-            'weight' => 'memcached-weight',
+            'host'   => get_env('MEMCACHED_HOST'),
+            'port'   => get_env('MEMCACHED_PORT'),
+            'weight' => get_env('MEMCACHED_WEIGHT'),
         ],
         'redis' => [
-            'host' => 'redis-host',
-            'port' => 'redis-port',
+            'host' => get_env('RADIS_HOST'),
+            'port' => get_env('RADIS_PORT'),
         ],
     ],
 
@@ -136,17 +136,17 @@ return [
      */
     'Database' => [
         /* Database DRIVE */
-        'DB_DRIVER' => 'database-drive', // mysql is recommendeds
+        'DB_DRIVER' => get_env('DB_CONNECTION'), // mysql is recommendeds
         /* Database NAME */
-        'DB_NAME' => 'database-name',
+        'DB_NAME' => get_env('DB_DATABASE'),
         /* MYSQL HOST */
-        'MYSQL_HOST' => 'mysql-host',
+        'MYSQL_HOST' => get_env('DB_HOST'),
         /* MYSQL PASS */
-        'MYSQL_USER' => 'mysql-user',
+        'MYSQL_USER' => get_env('DB_USERNAME'),
         /* MYSQL PASS*/
-        'MYSQL_PASS' => 'mysql-pass',
+        'MYSQL_PASS' => get_env('DB_PASSWORD'),
         /* SQLite name with path */
-        'SQLITE_NAME' => 'path/to/sqlite',
+        'SQLITE_NAME' => get_env('SQLITE_NAME'),
     ],
 
     /*
@@ -174,15 +174,15 @@ return [
      */
     'email' => [
         /* Site Email */
-        'SITE_EMAIL' => 'site-email', // mysql is recommendeds
+        'SITE_EMAIL' => get_env('MAIL_FROM_ADDRESS'), // mysql is recommendeds
         /* SMTP HOST */
-        'SMTP_HOST' => 'smtp-host',
+        'SMTP_HOST' => get_env('MAIL_HOST'),
         /* SMTP USER */
-        'SMTP_USER' => 'smtp-user',
+        'SMTP_USER' => get_env('MAIL_USERNAME'),
         /* SMTP PASS */
-        'SMTP_PASS' => 'smtp-pass',
+        'SMTP_PASS' => get_env('MAIL_PASSWORD'),
         /* SMTP PORT*/
-        'SMTP_PORT' => 'smtp-port',
+        'SMTP_PORT' => get_env('MAIL_PORTW'),
     ],
 
     /* Dependencies */
