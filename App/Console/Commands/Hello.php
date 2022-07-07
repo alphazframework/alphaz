@@ -15,6 +15,8 @@ class Hello extends Command
 
     public function handle(Output $output, Input $input, $param = []): void
     {
+        $password = $input->secret("Enter password");
+        echo $password;
         $this->write('<green>Hello World.</green>');
     }
 }
