@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf5f1d23c2f42e07d111fcc1e42b7cc6",
+    "content-hash": "c4676ee947fc79b323f6756b5a678e05",
     "packages": [
         {
             "name": "zest/framework",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zestframework/Zest_Framework.git",
-                "reference": "002eb0413a14da64341ac0a546be8597e2192383"
+                "reference": "65b204e8a7a94b70195942c5607c350dc63c98d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zestframework/Zest_Framework/zipball/002eb0413a14da64341ac0a546be8597e2192383",
-                "reference": "002eb0413a14da64341ac0a546be8597e2192383",
+                "url": "https://api.github.com/repos/zestframework/Zest_Framework/zipball/65b204e8a7a94b70195942c5607c350dc63c98d0",
+                "reference": "65b204e8a7a94b70195942c5607c350dc63c98d0",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
             ],
             "support": {
                 "issues": "https://github.com/zestframework/Zest_Framework/issues",
-                "source": "https://github.com/zestframework/Zest_Framework/tree/master"
+                "source": "https://github.com/zestframework/Zest_Framework/tree/main"
             },
             "funding": [
                 {
@@ -63,7 +63,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-06-20T02:36:16+00:00"
+            "time": "2022-07-07T16:35:17+00:00"
         }
     ],
     "packages-dev": [
