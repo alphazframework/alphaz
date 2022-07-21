@@ -12,7 +12,7 @@
         }
     ],	
     "require":{
-    	"zest/framework": "dev-master"
+    	"zest/framework": "dev-main"
     },	
     "require-dev": {
         "phpunit/phpunit": "^9.4"
